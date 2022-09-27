@@ -1,0 +1,25 @@
+@mixin fontstyle {
+    font-size: 20px;
+    color: rgb(252, 246, 246)
+}
+
+.presentacion {
+    @include fontstyle();
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    .conocenos {
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #d84a91;
+        margin-left: 24rem;
+        margin-right: 24rem;
+        border-bottom: solid black;
+        border-top: solid black;
+        border-right: solid black;
+        border-left: solid black;
+        margin-bottom: 30px;
+        border-radius: 30px;
+    }
+}

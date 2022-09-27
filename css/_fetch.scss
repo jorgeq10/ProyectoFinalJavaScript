@@ -1,0 +1,93 @@
+
+.buy {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center; }
+    .buy div {
+      padding: 10px;
+      border: #dd1f1f 2px solid;
+      border-radius: 10px;
+      margin: 20px; }
+    .buy h2 {
+      text-align: center;
+      color: white;
+     }
+    .buy p {
+      text-align: center;
+      font-size: 1.3rem;
+      color: white;
+     }
+    .buy button {
+      border: none;
+      padding: .3rem;
+      margin-top: .5rem;
+      cursor: pointer; 
+    }
+      .buy button:hover {
+        background-color: #dca2af; 
+    }
+
+        .buy {
+            display: flex;
+            flex-direction: column;
+            width: 100vw; 
+        }
+            .buy img, .buy div {
+              width: 40%; 
+        }
+
+              .buy-card{
+                display: inline-block;
+                height: 38px;
+                padding: 0 30px;
+                color: #fff;
+                text-align: center;
+                font-size: 11px;
+                font-weight: 600;
+                line-height: 38px;
+                letter-spacing: .1rem;
+                text-transform: uppercase;
+                text-decoration: none;
+                cursor: pointer;
+                border-radius: 4px;
+                background-color: rgb(230, 19, 180);
+              }
+              .buy-card:hover{
+                opacity: .6;
+              }
+              
+              .submenu .fa-cart-shopping{
+                  font-size: 1.8rem;
+              }
+              
+              .submenu{
+                position: relative;
+              }
+              
+              .submenu #carrito {
+                display: none;
+              }
+              
+              .submenu:hover #carrito {
+                display: block;
+                position: absolute;
+                cursor: pointer;
+                right: 0;
+                top: 100%;
+                padding: 20px;
+                z-index: 10000;
+                background-color: rgb(235, 123, 162);
+                min-height: 400px;
+                min-width: 300px;
+              }
+
+        .boton {
+                color: #fff;
+                background-color: #E38C8C;
+                text-decoration: none;
+                padding: 1px;
+                border-radius: 10px; }
+                .boton a {
+                  color: #fff; }

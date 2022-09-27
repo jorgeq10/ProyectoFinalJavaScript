@@ -1,0 +1,116 @@
+@import "base";
+@import "inicio";
+@import "nosotros";
+@import "productos";
+@import "servicios";
+@import "footer";
+@import "darkmode";
+@import "carrito";
+@import "fetch";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Montserrat:ital,wght@1,400;1,700&display=swap');
+
+/* media queries*/
+@media all and (min-width: 1200px){
+    .containProducts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 90vh;
+            height: 55vh;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        
+    }
+}
+
+@media all and (max-width: 1199px){
+    .containProducts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 63vh;
+            height: 40vh;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        
+    }
+}
+
+@media all and (max-width: 840px) {
+
+    .presentacion { 
+        .conocenos {
+        margin-top: 20px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    }
+    .gabriela{
+        margin-left: 20%
+    }
+
+    .eventos{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .containProducts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 63vh;
+            height: 40vh;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    }
+}
+
+@media all and (max-width: 428px){
+    
+    .logo {
+        width: 85px;
+        height: 85px;
+        margin-right: 20px;
+        border-radius: 50%;
+    }
+
+    .eventos{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+ 
+    .containProducts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 40vh;
+            height: 30vh;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    }
+
+}

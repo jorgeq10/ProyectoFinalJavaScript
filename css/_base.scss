@@ -1,0 +1,56 @@
+
+body {
+    background: rgb(247, 131, 233);
+    background: linear-gradient(90deg, rgba(247, 131, 233, 1) 0%, rgb(207, 137, 221) 52%, rgba(244, 76, 155, 1) 100%);
+    font-family: sans-serif;
+    &.dark {
+		background: rgb(40, 39, 39);
+        .eventos {
+            .promos {
+                color: white;
+            }
+            .bombas {
+                color: white;
+            }
+        
+        .servicio2 {
+            .brownies {
+                color: white;
+            }
+            .tresCm {
+                color: white;
+            }
+            .cuatroCm {
+                color: white;
+            }
+        }
+        }
+
+	}
+}
+
+.nav {
+    background-color: #d63384;
+    border-bottom: solid black;
+}
+
+.nav-item {
+    font-size: large;
+    color: rgb(253, 253, 253);
+}
+
+.carta {
+    border-radius: 8px;
+    border: solid black
+}
+
+.cartaImagen {
+    border-bottom: solid black;
+}
+
+
+  
+
+
+
+

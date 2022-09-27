@@ -1,0 +1,487 @@
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Montserrat:ital,wght@1,400;1,700&display=swap");
+body {
+  background: rgb(247, 131, 233);
+  background: linear-gradient(90deg, rgb(247, 131, 233) 0%, rgb(207, 137, 221) 52%, rgb(244, 76, 155) 100%);
+  font-family: sans-serif;
+}
+body.dark {
+  background: rgb(40, 39, 39);
+}
+body.dark .eventos .promos {
+  color: white;
+}
+body.dark .eventos .bombas {
+  color: white;
+}
+body.dark .eventos .servicio2 .brownies {
+  color: white;
+}
+body.dark .eventos .servicio2 .tresCm {
+  color: white;
+}
+body.dark .eventos .servicio2 .cuatroCm {
+  color: white;
+}
+
+.nav {
+  background-color: #d63384;
+  border-bottom: solid black;
+}
+
+.nav-item {
+  font-size: large;
+  color: rgb(253, 253, 253);
+}
+
+.carta {
+  border-radius: 8px;
+  border: solid black;
+}
+
+.cartaImagen {
+  border-bottom: solid black;
+}
+
+.logo {
+  width: 85px;
+  height: 85px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.slide {
+  margin-top: 2px;
+  margin-bottom: 6px;
+  border-left: solid black;
+  border-right: solid black;
+  border-bottom: solid black;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.bgInicio {
+  background: #cf5692;
+}
+.bgInicio.dark {
+  background: rgb(40, 39, 39);
+}
+
+.presentacion {
+  font-size: 20px;
+  color: rgb(252, 246, 246);
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.presentacion .conocenos {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #d84a91;
+  margin-left: 24rem;
+  margin-right: 24rem;
+  border-bottom: solid black;
+  border-top: solid black;
+  border-right: solid black;
+  border-left: solid black;
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
+
+.containProducts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.containProducts img {
+  width: 90vh;
+  height: 55vh;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.eventos {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.eventos h2 {
+  color: rgb(148, 15, 108);
+}
+.eventos h3 {
+  color: white;
+  text-decoration: underline;
+}
+.eventos p {
+  color: black;
+}
+.eventos p strong {
+  color: rgb(148, 15, 108);
+}
+.eventos ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.autor {
+  font-family: sans-serif;
+  font-family: "Reem Kufi Fun", sans-serif;
+}
+
+.copyright {
+  color: rgb(22, 20, 20);
+  font-size: 20px;
+  font-style: oblique;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-bottom: solid black;
+  border-top: solid black;
+}
+footer .redes {
+  color: rgb(22, 20, 20);
+  font-size: 20px;
+  font-style: oblique;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+}
+footer .social {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+footer .insta, footer .face {
+  width: 60px;
+  height: 60px;
+  margin-left: 2px;
+  margin-right: 6px;
+  border-radius: 50%;
+  transition: all 1s;
+}
+footer .insta:after, footer .face:after, footer .insta:before, footer .face:before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border: 0px solid #fff;
+  transition: all 1s;
+}
+footer .insta:after, footer .face:after {
+  top: -1px;
+  left: -1px;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+}
+footer .insta:before, footer .face:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+}
+footer .insta:hover, footer .face:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+footer .insta:hover:before, footer .face:hover:before, footer .insta:hover:after, footer .face:hover:after {
+  width: 100%;
+  height: 100%;
+}
+footer .whatsapp {
+  width: 60px;
+  height: 60px;
+  margin-left: 2px;
+  margin-right: 6px;
+  border-radius: 55%;
+  transition: all 1s;
+}
+footer .whatsapp:after, footer .whatsapp:before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border: 0px solid #d63384;
+  transition: all 1s;
+}
+footer .whatsapp:after {
+  top: -1px;
+  left: -1px;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+}
+footer .whatsapp:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+}
+footer .whatsapp:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background: #d63384;
+}
+footer .whatsapp:hover:before, footer .whatsapp:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
+.switch {
+  background: #343D5B;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+}
+.switch::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: #F1F1F1;
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  transition: 0.3s ease all;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.switch.active {
+  background: orange;
+  color: #000;
+}
+.switch.active::after {
+  right: 0;
+  left: unset;
+}
+.switch span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: #fff;
+}
+
+.borrar-curso {
+  background-color: rgb(132, 4, 139);
+  border-radius: 50%;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.buy {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.buy div {
+  padding: 10px;
+  border: #dd1f1f 2px solid;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.buy h2 {
+  text-align: center;
+  color: white;
+}
+
+.buy p {
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.buy button {
+  border: none;
+  padding: 0.3rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.buy button:hover {
+  background-color: #dca2af;
+}
+
+.buy {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.buy img, .buy div {
+  width: 40%;
+}
+
+.buy-card {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: rgb(230, 19, 180);
+}
+
+.buy-card:hover {
+  opacity: 0.6;
+}
+
+.submenu .fa-cart-shopping {
+  font-size: 1.8rem;
+}
+
+.submenu {
+  position: relative;
+}
+
+.submenu #carrito {
+  display: none;
+}
+
+.submenu:hover #carrito {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  top: 100%;
+  padding: 20px;
+  z-index: 10000;
+  background-color: rgb(235, 123, 162);
+  min-height: 400px;
+  min-width: 300px;
+}
+
+.boton {
+  color: #fff;
+  background-color: #E38C8C;
+  text-decoration: none;
+  padding: 1px;
+  border-radius: 10px;
+}
+
+.boton a {
+  color: #fff;
+}
+
+/* media queries*/
+@media all and (min-width: 1200px) {
+  .containProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .containProducts img {
+    width: 90vh;
+    height: 55vh;
+  }
+  .containProducts h1 {
+    text-align: center;
+  }
+  .containProducts p {
+    text-align: center;
+  }
+}
+@media all and (max-width: 1199px) {
+  .containProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .containProducts img {
+    width: 63vh;
+    height: 40vh;
+  }
+  .containProducts h1 {
+    text-align: center;
+  }
+  .containProducts p {
+    text-align: center;
+  }
+}
+@media all and (max-width: 840px) {
+  .presentacion .conocenos {
+    margin-top: 20px;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  .gabriela {
+    margin-left: 20%;
+  }
+  .eventos {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .containProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .containProducts img {
+    width: 63vh;
+    height: 40vh;
+  }
+  .containProducts h1 {
+    text-align: center;
+  }
+  .containProducts p {
+    text-align: center;
+  }
+}
+@media all and (max-width: 428px) {
+  .logo {
+    width: 85px;
+    height: 85px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  .eventos {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .containProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .containProducts img {
+    width: 40vh;
+    height: 30vh;
+  }
+  .containProducts h1 {
+    text-align: center;
+  }
+  .containProducts p {
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */

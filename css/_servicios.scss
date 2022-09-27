@@ -1,0 +1,33 @@
+$c: (
+    k1: white,
+    k2: black,
+    k3: rgb(148, 15, 108)
+);
+
+.eventos {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+
+    h2 {
+        color: map-get($c, k3);
+
+    }
+
+    h3 {
+        color: map-get($c, k1);
+        text-decoration: underline;
+    }
+
+    p {
+        color: map-get($c, k2);
+
+        strong {
+            color: map-get($c, k3);
+        }
+    }
+    ul{
+        list-style: none;
+        padding-left: 0;
+    }
+}

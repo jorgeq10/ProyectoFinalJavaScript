@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "nombre": "Torta Oreo (12 Porciones)",
+      "precio": 2500,
+      "imagen": "./img/tortaoreo.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Tarta de Coco",
+      "precio": 1500,
+      "imagen": "./img/tartacoco.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Chocotorta (12 porciones)",
+      "precio": 2100,
+      "imagen": "./img/chocotorta.jpg"
+    }
+]

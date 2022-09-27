@@ -1,0 +1,13 @@
+
+.containProducts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    img{
+        width: 90vh;
+        height: 55vh;
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+
+}
